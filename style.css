@@ -1,0 +1,167 @@
+/* https://paletton.com/#uid=52R1f0kuWsyjU-apbvgx1mSE7hL */
+
+body {
+    background-color: darkblue;
+}
+
+header {
+    overflow: hidden;
+    background-image: linear-gradient(to right, yellow, green);
+    border: 1px solid black;
+}
+
+nav {
+    background-image: url("/photos/homepage.jpeg");
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid black;
+    text-align: center;
+}
+
+footer {
+    overflow: hidden;
+    background-color: #FFEF60;
+    border: 1px solid black;
+    padding-left: 15px;
+}
+
+header a {
+    float: right;
+    display: block;
+    color: black;
+    background-color: #29C13C;
+    text-align: center;
+    padding: 18px 16px;
+    font-size: 17px;
+    border: 2px solid black;
+    transition: all 0.3s ease 0s;
+    font-family: arial;
+}
+
+header span {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 10px;
+    padding-left: 45px;
+    font-size: 19px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+header a:hover {
+    color: white;
+}
+
+nav h2 {
+    font-size: 45px;
+    padding-left: 45px;
+    width: 35%;
+    font-family: monospace;
+}
+
+nav h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: arial;
+}
+
+
+main h2 {
+    font-size: 35px;
+    text-align: center;
+    font-family: monospace;
+}
+
+main h3 {
+    font-size: 35px;
+    text-align: center;
+    font-family: arial;
+}
+
+main p {
+    text-align: center;
+    font-family: arial;
+}
+
+nav p{
+    font-size: 15px;
+    padding-left: 65px;
+    width: 25%;
+    font-family: arial;
+}
+
+nav button {
+    color: black;
+    background-color: #29C13C;
+    text-align: center;
+    margin-left: 125px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 18px 16px;
+    font-size: 25px;
+    border: 2px solid black;
+    transition: all 0.3s ease 0s;
+    font-family: monospace;
+}
+
+nav button:hover {
+    background-color: #6156BB;
+    color: white;
+}
+
+form ul > li {
+    list-style: none;
+    margin-bottom: 5px;
+    font-family: monospace;
+}
+
+form ul {
+    text-align: center;
+}
+
+figure img {
+    border: groove 10px #B98943;
+    margin: 50px 20px 20px 20px;
+}
+
+main > img {
+    border: groove 10px #B98943;
+    margin: 50px 20px 20px 20px;
+}
+
+ol {
+    text-align: center;
+    list-style-position: inside;
+    list-style: none;
+}
+
+table, th, td {
+    border: 3px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td, th {
+    padding: 5px 20px;
+    text-align: center;
+    font-family: arial;
+}
+
+th {
+    background-color: white;
+}
+
+td {
+    background-color: white;
+}
